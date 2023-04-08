@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { getAllPosts, getPostBySlug } from "../../../lib/api";
+import { getAllPosts} from "../../../lib/api";
 import Breadcrumb from "../../components/common/Breadcrumb";
 import HeadMeta from "../../components/elements/HeadMeta";
 import FooterOne from "../../components/footer/FooterOne";

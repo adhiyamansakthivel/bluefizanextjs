@@ -3,10 +3,6 @@ import HeadMeta from "../components/elements/HeadMeta";
 import FooterOne from "../components/footer/FooterOne";
 import HeaderTwo from "../components/header/HeaderTwo";
 import PostSectionFive from "../components/post/PostSectionFive";
-import PostSectionSeven from "../components/post/PostSectionSeven";
-import PostSectionSix from "../components/post/PostSectionSix";
-import PostSectionThree from "../components/post/PostSectionThree";
-import SliderOne from "../components/slider/SliderOne";
 import PostSectionTwo from "../components/post/PostSectionTwo";
 
 

@@ -11,12 +11,12 @@ const nextConfig = {
     domains : ['sangw.in', 'localhost', 'picsum.photos'] // <== Domain name
   },
   env:{
-    GET_POSTS: 'http://localhost:8000/api/get-posts',
-    GET_POSTS_ID: 'http://localhost:8000/api/get-post/',
-    GET_CATEGORIES:'http://localhost:8000/api/get-categories',
-    GET_CATEGORIES_ID: 'http://localhost:8000/api/get-category/',
-    GET_NAVIGATIONS: 'http://localhost:8000/api/get-navigations',
-    GET_IMAGES: 'http://localhost:8000/blogImages/',
+    GET_POSTS: 'http://3.108.76.77/api/get-posts/api/get-posts',
+    GET_POSTS_ID: 'http://3.108.76.77/api/get-posts/api/get-post/',
+    GET_CATEGORIES:'http://3.108.76.77/api/get-posts/api/get-categories',
+    GET_CATEGORIES_ID: 'http://3.108.76.77/api/get-posts/api/get-category/',
+    GET_NAVIGATIONS: 'http://3.108.76.77/api/get-posts/api/get-navigations',
+    GET_IMAGES: 'http://3.108.76.77/api/get-posts/blogImages/',
 
   },
 }

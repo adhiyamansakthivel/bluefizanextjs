@@ -10,10 +10,10 @@ const PostVideoTwo = ({ data, pClass, videoIcon }) => {
     <div className={`media post-block post-block__small ${pClass ?? "post-block__on-dark-bg m-b-xs-30"}`}>
       		 {
             valuesArray.slice(0, 1).map((img, i) => (
-            <Link href={`/post/${data.slug}`}>
+            <Link href={`/post/${data.slug}`} key={i}>
               <a className="align-self-center">
                   <Image
-                  src={`http://localhost:8000/blogImages/${img.images}`}
+                  src={`http://3.108.76.77/blogImages/${img.images}`}
                   alt={data.title}
                   width={100}
                   height={100}

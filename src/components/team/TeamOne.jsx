@@ -10,10 +10,10 @@ const TeamOne = ({data}) => {
     <div className="axil-team-block m-b-xs-30">
             {
             valuesArray.slice(0, 1).map((img, i) => (
-                <Link href={`/post/${data.slug}`}>
+                <Link href={`/post/${data.slug}`} key={i}>
                     <a className="d-block img-container">
                         <Image
-                            src={`http://localhost:8000/blogImages/${img.images}`}
+                            src={`http://3.108.76.77/blogImages/${img.images}`}
                             alt={data.title}
                             width={350}
                             height={350}
@@ -36,3 +36,5 @@ const TeamOne = ({data}) => {
 }
  
 export default TeamOne;
+
+

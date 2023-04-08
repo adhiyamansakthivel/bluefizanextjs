@@ -1,16 +1,9 @@
-import { loadMenus, loadPosts,loadSlugPost, loadSlugCate, loadCate } from "../../../lib/api";
+import { loadMenus, loadPosts, loadSlugCate, loadCate } from "../../../lib/api";
 import FooterOne from "../../components/footer/FooterOne";
-import HeaderOne from "../../components/header/HeaderOne";
 import Breadcrumb from "../../components/common/Breadcrumb";
-import { slugify } from "../../utils";
 import HeadMeta from "../../components/elements/HeadMeta";
-import AdBanner from "../../components/common/AdBanner";
-import WidgetAd from "../../components/widget/WidgetAd";
-import WidgetSocialShare from "../../components/widget/WidgetSocialShare";
 import WidgetPost from "../../components/widget/WidgetPost";
 import PostLayoutTwo from "../../components/post/layout/PostLayoutTwo";
-import WidgetCategory from "../../components/widget/WidgetCategory";
-import HeaderTwo from "../../components/header/HeaderTwo";
 import MetaDataThree from "../../components/post/post-format/elements/meta/MetaDataThree";
 import HeaderFive from "../../components/header/HeaderFive";
 

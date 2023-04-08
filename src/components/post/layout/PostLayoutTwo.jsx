@@ -13,7 +13,7 @@ const PostLayoutTwo = ({data, postSizeMd, postBgDark}) => {
                 <Link href={`/post/${data.slug}`} key={i}>
                   <a className="align-self-center">
                   <Image
-                    src={`http://localhost:8000/blogImages/${img.images}`}
+                    src={`http://3.108.76.77/blogImages/${img.images}`}
                     alt={data.title}
                     width={postSizeMd === true ? 285 : 150}
                     height={postSizeMd === true ? 285 : 150}

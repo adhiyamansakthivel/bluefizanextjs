@@ -1,18 +1,9 @@
-import Image from "next/image";
 import { loadMenus, loadPosts,loadSlugPost, loadSlugCate } from "../../../lib/api";
 import Breadcrumb from "../../components/common/Breadcrumb";
 import HeadMeta from "../../components/elements/HeadMeta";
 import FooterOne from "../../components/footer/FooterOne";
-import PostFormatAudio from "../../components/post/post-format/PostFormatAudio";
-import PostFormatGallery from "../../components/post/post-format/PostFormatGallery";
 import PostFormatQuote from "../../components/post/post-format/PostFormatQuote";
-import PostFormatStandard from "../../components/post/post-format/PostFormatStandard";
-import PostFormatText from "../../components/post/post-format/PostFormatText";
-import PostFormatVideo from "../../components/post/post-format/PostFormatVideo";
-import PostSectionSix from "../../components/post/PostSectionSix";
 import HeaderFive from "../../components/header/HeaderFive";
-import WidgetNewsletter from "../../components/widget/WidgetNewsletter";
-import WidgetPost from "../../components/widget/WidgetPost";
 import TeamOne from "../../components/team/TeamOne";
 import SectionTitleTwo from "../../components/elements/SectionTitleTwo";
 

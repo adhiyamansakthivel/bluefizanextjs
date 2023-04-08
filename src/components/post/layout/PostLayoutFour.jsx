@@ -7,10 +7,10 @@ const PostLayoutFour = ({ data }) => {
   return (
     <div className="content-block m-b-xs-30">
 		{  valuesArray.slice(0, 1).map((img, i) => (
-		<Link href={`/post/${data.slug}`}>
+		<Link href={`/post/${data.slug}`} key={i}>
 			<a>
 				<Image
-					src={`http://localhost:8000/blogImages/${img.images}`}
+					src={`http://3.108.76.77/blogImages/${img.images}`}
 					alt={data.title}//
 					width={255}
 					height={255}

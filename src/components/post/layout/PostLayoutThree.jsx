@@ -10,10 +10,10 @@ const PostLayoutThree = ({ data, postSizeLg, pClass, videoPost }) => {
 	<div className={`axil-img-container ${pClass ?? "m-b-xs-30"}`}>
 		 {
             valuesArray.slice(0, 1).map((img, i) => (
-			<Link href={`/post/${data.slug}`}>
+			<Link href={`/post/${data.slug}`} key={i}>
 				<a >
 					<Image
-						src={`http://localhost:8000/blogImages/${img.images}`}
+						src={`http://3.108.76.77/blogImages/${img.images}`}
 						alt={data.title}
 						width={postSizeLg === true? 730 : 350}
 						height={postSizeLg === true? 550 : 260}
