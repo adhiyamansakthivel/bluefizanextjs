@@ -13,7 +13,7 @@ const PostVideoThree = ({ data, imgWidth, imgHeight }) => {
     <Link href={`/post/${data.slug}`} key={i}>
 			<a className="d-block h-100">
 				<Image
-					src={`${process.env.GET_IMAGES}${img.images}`}
+					src={`http://3.108.76.77/blogImages/${img.images}`}
           alt={data.title}
 					width={imgWidth ?? 540}
 					height={imgHeight?? 690}

@@ -13,7 +13,7 @@ const PostVideoTwo = ({ data, pClass, videoIcon }) => {
             <Link href={`/post/${data.slug}`} key={i}>
               <a className="align-self-center">
                   <Image
-                  src={`http://3.108.76.77/blogImages/${img.images}`}
+                  src={`${process.env.GET_IMAGES}${img.images}`}
                   alt={data.title}
                   width={100}
                   height={100}

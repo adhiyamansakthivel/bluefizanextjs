@@ -8,7 +8,7 @@ const nextConfig = {
     return config;
   },
   images : {
-    domains : ['sangw.in', 'localhost', 'picsum.photos'] // <== Domain name
+    domains : ['sangw.in', 'localhost', 'picsum.photos', '3.108.76.77' ] // <== Domain name
   },
   env:{
     GET_POSTS: 'http://3.108.76.77/api/get-posts',

@@ -13,7 +13,7 @@ const TeamOne = ({data}) => {
                 <Link href={`/post/${data.slug}`} key={i}>
                     <a className="d-block img-container">
                         <Image
-                            src={`http://3.108.76.77/blogImages/${img.images}`}
+                            src={`${process.env.GET_IMAGES}${img.images}`}
                             alt={data.title}
                             width={350}
                             height={350}
