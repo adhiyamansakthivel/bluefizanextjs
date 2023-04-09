@@ -16,7 +16,7 @@ const nextConfig = {
     GET_CATEGORIES:'http://3.108.76.77/api/get-categories',
     GET_CATEGORIES_ID: 'http://3.108.76.77/api/get-category/',
     GET_NAVIGATIONS: 'http://3.108.76.77/api/get-navigations',
-    GET_IMAGES: 'http://3.108.76.77/api/get-posts/blogImages/',
+    GET_IMAGES: 'http://3.108.76.77/blogImages/',
 
   },
 }
