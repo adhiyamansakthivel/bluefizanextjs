@@ -36,5 +36,3 @@ const TeamOne = ({data}) => {
 }
  
 export default TeamOne;
-
-
